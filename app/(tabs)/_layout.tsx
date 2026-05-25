@@ -67,8 +67,8 @@ export default function TabLayout() {
 
 const styles = StyleSheet.create({
   tabBar: {
-    backgroundColor: '#1a3a2a',
-    borderTopColor: '#2d5a3d',
+    backgroundColor: '#0D1B2A',
+    borderTopColor: '#1B2A3E',
     borderTopWidth: 1,
     height: 70,
     paddingBottom: 8,
@@ -80,8 +80,17 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     minWidth: 55,
   },
-  tabIconActive: { backgroundColor: '#2d5a3d' },
+  tabIconActive: {
+    backgroundColor: '#F9731622',
+  },
   iconText: { fontSize: 22 },
-  tabLabel: { fontSize: 10, color: '#6aab8a', marginTop: 2 },
-  tabLabelActive: { color: '#ffffff', fontWeight: '600' },
+  tabLabel: {
+    fontSize: 10,
+    color: '#64748B',
+    marginTop: 2,
+  },
+  tabLabelActive: {
+    color: '#F97316',
+    fontWeight: '600',
+  },
 });
